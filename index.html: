@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minha Loja Simples</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à nossa loja!</h2>
+        <p>Oferecemos os melhores produtos com os melhores preços.</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>R$ 99,90</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>R$ 149,90</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@minhaloja.com</p>
+        <p>WhatsApp: (99) 99999-9999</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja Simples. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
